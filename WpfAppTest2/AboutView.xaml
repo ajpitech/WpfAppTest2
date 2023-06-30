@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="WpfAppTest2.AboutView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfAppTest2"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel >
+        <StackPanel HorizontalAlignment="Left" Width="200" Height="250" Orientation="Vertical" Background="LightGreen">
+
+            <Label HorizontalAlignment="Center" >This Is About View</Label>
+            <Button Command="{Binding AboutOption1View}" Width="150" Margin="15">AboutOption1</Button>
+            <Button Command="{Binding AboutOption2View}" Width="150" Margin="15">AboutOption2</Button>
+            <Button Command="{Binding AboutOption3View}" Width="150" Margin="15">AboutOption3</Button>
+        </StackPanel>
+       
+
+    </StackPanel>
+</UserControl>
